@@ -1,0 +1,22 @@
+NSCR for the N-Queens Problem
+
+Associated publication:
+
+Omid Moghimi and Amin Amini
+"A Novel Approach for Solving the N-Queen Problem Using a Non-Sequential
+Conflict Resolution Algorithm"
+Electronics 2024, 13(20), 4065
+https://doi.org/10.3390/electronics13204065
+
+The associated paper's author-contribution statement attributes
+conceptualization and algorithm development to Omid Moghimi; validation to
+Omid Moghimi and Amin Amini; and formal analysis and methodology to Amin
+Amini.
+
+This repository contains a clean reference reconstruction informed by the
+published paper and a recovered historical C# experimental draft. It is not
+claimed to be the exact source tree used to produce the published experimental
+results.
+
+Software in this repository is licensed under the Apache License, Version 2.0.
+The publication itself is separate from this software distribution.
