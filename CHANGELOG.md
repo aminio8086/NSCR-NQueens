@@ -4,6 +4,8 @@ All notable changes to this research-software release will be documented here.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-17
+
 ### Added
 
 - Clean C# reference reconstruction of the NSCR state machine.
