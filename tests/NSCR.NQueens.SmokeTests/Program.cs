@@ -116,16 +116,20 @@ static void TestOperationLimit()
             OperationLimit = 1
         });
 
+    bool guardTriggered = false;
+
     try
     {
         solver.Solve(4);
-        throw new InvalidOperationException(
-            "A deliberately tiny operation limit should stop the solver.");
     }
     catch (InvalidOperationException)
     {
-        // Expected.
+        guardTriggered = true;
     }
+
+    Assert(
+        guardTriggered,
+        "A deliberately tiny operation limit should stop the solver.");
 }
 
 static void TestDeterminism()
