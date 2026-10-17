@@ -1,0 +1,24 @@
+# .NET
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# JetBrains
+.idea/
+*.sln.iml
+
+# Benchmark/output data
+results.csv
+*.benchmark.csv
+
+# OS
+.DS_Store
+Thumbs.db

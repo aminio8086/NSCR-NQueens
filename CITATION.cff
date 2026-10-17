@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use this NSCR reference implementation in academic work, please cite
+  the associated Electronics 2024 paper.
+title: NSCR for the N-Queens Problem
+type: software
+license: Apache-2.0
+repository-code: https://github.com/aminio8086/NSCR-NQueens
+authors:
+  - family-names: Moghimi
+    given-names: Omid
+  - family-names: Amini
+    given-names: Amin
+    orcid: https://orcid.org/0000-0001-7081-2440
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Moghimi
+      given-names: Omid
+    - family-names: Amini
+      given-names: Amin
+      orcid: https://orcid.org/0000-0001-7081-2440
+  title: >-
+    A Novel Approach for Solving the N-Queen Problem Using a Non-Sequential
+    Conflict Resolution Algorithm
+  journal: Electronics
+  year: 2024
+  volume: 13
+  issue: 20
+  doi: 10.3390/electronics13204065
+  url: https://doi.org/10.3390/electronics13204065
