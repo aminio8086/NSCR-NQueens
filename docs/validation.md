@@ -5,11 +5,14 @@
 The reconstruction has been checked for:
 
 - valid N-Queens solutions on representative solvable sizes;
+- valid solutions at larger sizes through n=1000;
 - correct unsolved status for n=2 and n=3;
 - deterministic output for repeated runs at the same n;
 - explicit handling of the unresolved six-queen discrepancy;
 - successful historical-draft six-queen mode;
 - final board validation independent of the solver state machine;
+- invalid-input handling;
+- operation-limit handling;
 - project structure suitable for automated .NET build testing.
 
 ## CI

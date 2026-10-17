@@ -28,6 +28,27 @@ state maps directly onto the NSCR approach:
 These characteristics provide strong provenance for the reconstructed NSCR
 state machine.
 
+
+## Least-threat description versus recovered movement code
+
+The publication prose states that NSCR can evaluate multiple candidate
+positions for a conflicting queen and select a position with the least threat
+level.
+
+The recovered C# draft does not contain an explicit routine that scores all
+candidate rows and selects a global least-threat row. Its `MoveDown` routine
+advances the active queen row-by-row, calls the threat checker after each move,
+and reacts to the resulting conflict state.
+
+Because the supplied implementation does not provide the missing scoring rule,
+the clean reconstruction does **not** invent one. It preserves the concrete
+row-by-row conflict-resolution state machine from the recovered source while
+documenting this difference from the publication prose.
+
+Consequently, this repository should be treated as a source-informed NSCR
+reference reconstruction, not proof that the exact final unpublished
+implementation has been recovered.
+
 ## Experimental-driver mismatch
 
 The recovered file benchmarks every n from 8 through 100 in a single loop.
